@@ -10,6 +10,8 @@ public class add_reminder extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_reminder);
+        exerciseName = (EditText)findViewById(R.id.inputName);
+        exerciseQuantity = (EditText)findViewById(R.id.inputQuantity);
     }
 
     //get the text

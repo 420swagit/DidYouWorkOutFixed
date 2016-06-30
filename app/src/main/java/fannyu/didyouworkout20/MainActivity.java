@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void newReminder(View view)
+    public void addReminder(View view)
     {
         Intent intent = new Intent(this,add_reminder.class);
         startActivity(intent);

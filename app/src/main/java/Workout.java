@@ -18,4 +18,40 @@ public class Workout {
         this.name = name;
         this.quantity = quantity;
     }
+
+    public Workout(String name, String quantity)
+    {
+        this.name = name;
+        this.quantity = quantity;
+    }
+
+    public int getId()
+    {
+        return this.id;
+    }
+
+    public void setId(int id)
+    {
+         this.id = id;
+    }
+
+    public String getName()
+    {
+        return this.name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public String getQuantity()
+    {
+        return this.quantity;
+    }
+
+    public void setQuantity(String quantity)
+    {
+        this.quantity = quantity;
+    }
 }

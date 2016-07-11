@@ -14,8 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    DatabaseHandler db = new DatabaseHandler(this);
-
 
     public void onAdd(View view)
     {
@@ -23,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
         String nameString = name.getText().toString();
         EditText quantity = (EditText)findViewById(R.id.inputQuantity);
         String quantityString = quantity.getText().toString();
-        db.addWorkout(new Workout(nameString,quantityString));
+        
     }
 }

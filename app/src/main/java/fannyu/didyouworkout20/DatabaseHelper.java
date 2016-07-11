@@ -18,6 +18,8 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         super(context, DB_NAME, null, DB_VERSION);
     }
 
+
+
     public void onCreate(SQLiteDatabase db)
     {
         db.execSQL("CREATE TABLE WORKOUT (_id INTEGER PRIMARY KEY AUTOINCREMENT"

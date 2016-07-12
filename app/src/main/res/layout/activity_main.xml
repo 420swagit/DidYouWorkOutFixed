@@ -8,12 +8,35 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="fannyu.didyouworkout20.MainActivity">
-    <ImageView
-        android:id="@+id/backgroundImage"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/run"
-        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/viewWorkouts"
+            android:text="View Workouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp"
+            />
+
+        <Button
+            android:id="@+id/addWorkout"
+            android:text="Add Workout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/viewWorkouts"
+            android:layout_toEndOf="@+id/viewWorkouts" />
+
+    </RelativeLayout>
+
 
 
 

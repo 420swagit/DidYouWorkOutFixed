@@ -6,9 +6,8 @@ package fannyu.didyouworkout20;
 public class UserWorkout {
     public static abstract class NewUserInfo
     {
-        public static final String WORKOUT_NAME = "workout_name";
-        public static final String WORKOUT_QUANTITY = "workout_quantity";
-
-        public static final String TABLE_NAME = "workout_info";
+        public static final String USER_NAME = "user_name";
+        public static final String USER_QUANTITY = "user_quantity";
+        public static final String TABLE_NAME = "user_info";
     }
 }

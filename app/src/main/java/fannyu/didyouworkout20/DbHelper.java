@@ -34,6 +34,8 @@ public class DbHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put(UserWorkout.NewUserInfo.WORKOUT_NAME,name);
         contentValues.put(UserWorkout.NewUserInfo.WORKOUT_QUANTITY,quantity);
+        db.insert(UserWorkout.NewUserInfo.TABLE_NAME, null, contentValues);
+        Log.e("DATABASE OPERATIONS", "One row inserted...");
     }
 
     @Override
